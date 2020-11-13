@@ -11,4 +11,5 @@ call plug#end()
 colorscheme NeoSolarized
 
 " Keyboard shortcuts
-nnoremap <C-b> :ls<CR>:b<Space>
+" Switch buffers with Ctrl+b
+nnoremap <C-b> :ls<CR>:b<Space>#
